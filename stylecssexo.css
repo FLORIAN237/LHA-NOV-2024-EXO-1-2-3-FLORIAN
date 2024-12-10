@@ -1,0 +1,36 @@
+/* corps du devoir écrit en helvetica */
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+/* titres du niveau 1 centrés et en rouge */
+h1 {
+    text-align: center;
+    color: red;
+}
+
+/* Titres du niveau 2 soulignés*/
+h2 {
+    text-decoration: underline;
+}
+
+/* titres de niveau 2 dans section ecrits en vert */
+section > h2 {
+    color: green;
+}
+
+/* titres de niveau 2 dans article ecrits en bleu */
+article > h2 {
+    color: blue;
+}
+
+/* Paragraphes suivant directement un titre de niveau 2 ecrits en rouge italique */
+h2 + p {
+    color: red;
+    font-style: italic;
+}
+
+/* Paragraphes suivant u titre de niveau 1 ecrits en violet */
+h1 + p {
+    color: violet;
+}
